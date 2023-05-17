@@ -1,0 +1,309 @@
+[
+  {
+    "id": "1",
+    "name": "Shubham",
+    "ticketNo": "101",
+    "ticketTopic": "Topic1",
+    "examGrade": 7.9,
+    "ratingGrade": 8.5,
+    "finalGrade": "",
+    "Comments": "Excellent",
+    "details": {
+      "Name" : "Shubham Batholiya",
+      "Fathers name" : "Nemichand Batholiya",
+      "Address" : "Indore",
+      "Contact" : "6394914454",
+      "Email" : "shubham@gmail.com"
+    }
+  },
+  {
+    "id": "2",
+    "name": "Rahul",
+    "ticketNo": "102",
+    "ticketTopic": "Topic2",
+    "examGrade": 6.4,
+    "ratingGrade": 8.8,
+    "finalGrade": "",
+    "Comments": "Very Nice",
+    "details": {
+      "Name" : "Rahul",
+      "Fathers name" : "Rajsing Kumar",
+      "Address" : "Mogargaon",
+      "Contact" : "786543873",
+      "Email" : "Rahul@gmail.com"
+    }
+  },
+  {
+    "id": "3",
+    "name": "Nitin",
+    "ticketNo": "103",
+    "ticketTopic": "Topic3",
+    "examGrade": 7.6,
+    "ratingGrade": 8.5,
+    "finalGrade": "", 
+    "Comments": "Superb",
+    "details": {
+      "Name" : "Nitin",
+      "Fathers name" : "Ratnesh Kumar",
+      "Address" : "Muzaffarpur, Bihar",
+      "Contact" : "7424959601",
+      "Email" : "Nitin.mantu@gmail.com"
+    }
+  },
+  {
+    "id": "4",
+    "name": "Ramcharan",
+    "ticketNo": "104",
+    "ticketTopic": "Topic4",
+    "examGrade": 1.7,
+    "ratingGrade": 2,
+    "finalGrade": "",
+    "Comments": "Very Good",
+    "details": {
+      "Name" : "Ramcharan",
+      "Fathers name" : "Rajiv Kumar",
+      "Address" : "Patlipur",
+      "Contact" : "9549636573",
+      "Email" : "Ramcharan@gmail.com"
+    }
+  },
+  {
+    "id": "5",
+    "name": "Shubhm",
+    "ticketNo": "105",
+    "ticketTopic": "Topic5",
+    "examGrade": 7.33,
+    "ratingGrade": 8.9,
+    "finalGrade": "",
+    "Comments": "Excellent",
+    "details": {
+      "Name" : "Shubhm",
+      "Fathers name" : "Rajkumar Yadav",
+      "Address" : "Mayanagar",
+      "Contact" : "9778496873",
+      "Email" : "Shubhm@gmail.com"
+    }
+  },
+  
+  {
+    "id": "6",
+    "name": "Rahul",
+    "ticketNo": "106",
+    "ticketTopic": "Topic6",
+    "examGrade": 4.3,
+    "ratingGrade": 2.9,
+    "finalGrade": "",
+    "Comments": "Not Good",
+    "details": {
+      "Name" : "Rahul",
+      "Fathers name" : "Sanjay Raj",
+      "Address" : "Katnipura",
+      "Contact" : "6584963873",
+      "Email" : "rahul@gmail.com"
+    }
+  },
+  {
+    "id": "7",
+    "name": "Aman",
+    "ticketNo": "107",
+    "ticketTopic": "Topic7",
+    "examGrade": 3.7,
+    "ratingGrade": 3,
+    "finalGrade": "",
+    "Comments": "Not Good",
+    "details": {
+      "Name" : "Aman",
+      "Fathers name" : "Rakesh Sing",
+      "Address" : "Karhi",
+      "Contact" : "7485937494",
+      "Email" : "aman@gmail.com"
+    }
+  },
+  {
+    "id": "8",
+    "name": "Shyam Kumar",
+    "ticketNo": "108",
+    "ticketTopic": "Topic8",
+    "examGrade": 4.7,
+    "ratingGrade": 4,
+    "finalGrade": "",
+    "Comments": "Fine",
+    "details": {
+      "Name" : "Shyam Kumar",
+      "Fathers name" : "Anand",
+      "Address" : "Andhra Pradesh",
+      "Contact" : "6301861196",
+      "Email" : "Shyam.chandragiri+@gmail.com"
+    }
+  },
+  {
+    "id": "9",
+    "name": "Akshay Kumar",
+    "ticketNo": "109",
+    "ticketTopic": "Topic9",
+    "examGrade": 8.7,
+    "ratingGrade": 7,
+    "finalGrade": "",
+    "Comments": "Fine",
+    "details": {
+      "Name" : "Akshay Kumar",
+      "Fathers name" : "Anand Kumar",
+      "Address" : "Mumbai",
+      "Contact" : "9801861196",
+      "Email" : "imakshay.@gmail.com"
+    }
+  },
+  {
+    "id": "10",
+    "name": "Ajay Raj",
+    "ticketNo": "110",
+    "ticketTopic": "Topic10",
+    "examGrade": 7,
+    "ratingGrade": 8,
+    "finalGrade": "",
+    "Comments": "Good",
+    "details": {
+      "Name" : "Ajay Raj",
+      "Fathers name" : "Akanda Raj",
+      "Address" : "Ahemdabad",
+      "Contact" : "9451866785",
+      "Email" : "ajayraj@gmail.com"
+    }
+  },
+  {
+    "id": "11",
+    "name": "Vikash Dube",
+    "ticketNo": "111",
+    "ticketTopic": "Topic11",
+    "examGrade": 3.9,
+    "ratingGrade": 4.0,
+    "finalGrade": "",
+    "Comments": "Good",
+    "details": {
+      "Name" : "Vikash Dube",
+      "Fathers name" : "Mahendra Dube",
+      "Address" : "Patna",
+      "Contact" : "6394914454",
+      "Email" : "vikash@gmail.com"
+    }
+  },
+  {
+    "id": "12",
+    "name": "Raman",
+    "ticketNo": "112",
+    "ticketTopic": "Topic12",
+    "examGrade": 6.4,
+    "ratingGrade": 8.8,
+    "finalGrade": "",
+    "Comments": "Very Nice",
+    "details": {
+      "Name" : "Raman Patil",
+      "Fathers name" : "Vishwash Patil",
+      "Address" : "Mogargaon",
+      "Contact" : "786543873",
+      "Email" : "raman@gmail.com"
+    }
+  },
+  {
+    "id": "13",
+    "name": "Vijay Sing",
+    "ticketNo": "113",
+    "ticketTopic": "Topic13",
+    "examGrade": 3.6,
+    "ratingGrade": 2.5,
+    "finalGrade": "",
+    "Comments": "Superb",
+    "details": {
+      "Name" : "Vijay Sing",
+      "Fathers name" : "Santosh Kumar",
+      "Address" : "Muzaffarpur, Bihar",
+      "Contact" : "7424959601",
+      "Email" : "vijaysing@gmail.com"
+    }
+  },
+  {
+    "id": "14",
+    "name": "Rajmani Yadav",
+    "ticketNo": "114",
+    "ticketTopic": "Topic14",
+    "examGrade": 6.7,
+    "ratingGrade": 10,
+    "finalGrade": "",
+    "Comments": "Very Good",
+    "details": {
+      "Name" : "Rajmani Yadav",
+      "Fathers name" : "Rajiv Kumar",
+      "Address" : "Pratapgad",
+      "Contact" : "9549636573",
+      "Email" : "rajmani@gmail.com"
+    }
+  },
+  {
+    "id": "15",
+    "name": "Shubh Raj",
+    "ticketNo": "115",
+    "ticketTopic": "Topic15",
+    "examGrade": 7.33,
+    "ratingGrade": 3.9,
+    "finalGrade": "",
+    "Comments": "Excellent",
+    "details": {
+      "Name" : "Shubh Raj",
+      "Fathers name" : "Rajeshwar Raj",
+      "Address" : "Mayanagar",
+      "Contact" : "9778496873",
+      "Email" : "Shubh@gmail.com"
+    }
+  },
+  {
+    "id": "16",
+    "name": "Deepak Raj",
+    "ticketNo": "116",
+    "ticketTopic": "Topic16",
+    "examGrade": 4.3,
+    "ratingGrade": 8.9,
+    "finalGrade": "",
+    "Comments": "Not Good",
+    "details": {
+      "Name" : "Deepak Raj",
+      "Fathers name" : "Sanjay Raj",
+      "Address" : "Katnipura",
+      "Contact" : "6584963873",
+      "Email" : "deepak@gmail.com"
+    }
+  },
+  {
+    "id": "17",
+    "name": "Navin Bhatt",
+    "ticketNo": "117",
+    "ticketTopic": "Topic17",
+    "examGrade": 1.7,
+    "ratingGrade": 8,
+    "finalGrade": "",
+    "Comments": "Not Good",
+    "details": {
+      "Name" : "Navin Bhatt",
+      "Fathers name" : "Nitesh Bhatt",
+      "Address" : "Karhi",
+      "Contact" : "7485937494",
+      "Email" : "navin@gmail.com"
+    }
+  },
+  {
+    "id": "18",
+    "name": "Jayraj Patidar",
+    "ticketNo": "118",
+    "ticketTopic": "Topic18",
+    "examGrade": 4.7,
+    "ratingGrade": 4,
+    "finalGrade": "",
+    "Comments": "Fine",
+    "details": {
+      "Name" : "Jayraj Patidar",
+      "Fathers name" : "Mukesh Patidar",
+      "Address" : "Andhra Pradesh",
+      "Contact" : "6301861196",
+      "Email" : "jayraj@gmail.com"
+    }
+  }
+]

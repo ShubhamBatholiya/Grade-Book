@@ -1,0 +1,26 @@
+.statisticsTable, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.statisticsTable {
+    margin: 0 20px;
+    display: inline-block;
+    border: none;
+}
+th, td {
+    padding: 0 30px;
+    text-align: center;
+}
+.statisticsTable th:first-child {
+    padding: 0 100px;
+}
+.statisticsTable thead tr {
+    background-color: rgb(255, 227, 16);
+}
+.statisticsTable thead tr th {
+    padding-block: 6px;
+}
+.statisticsTable tbody tr:hover{
+    background-color: rgba(223, 216, 216, 0.615);
+}

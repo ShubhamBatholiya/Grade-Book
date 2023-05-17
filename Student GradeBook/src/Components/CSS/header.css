@@ -1,0 +1,226 @@
+.title {
+    background-color: rgb(255, 149, 0);
+    display: flex;
+    position: sticky;
+    top: 0;
+    color: #0156ff;
+    align-items: center;
+}
+
+.title img {
+    height: 40px;
+    width: 40px;
+    margin-block: 9px;
+    margin-left: 20px;
+    margin-right: 10px;
+    border: 2px solid rgb(253, 255, 252);
+    box-shadow: 1px 1px 5px rgb(255, 255, 255);
+    border-radius: 50%;
+}
+
+.title h1 {
+    margin-bottom: 5px;
+    color: rgb(3, 22, 234);
+}
+
+.header-information {
+    height: 120px;
+    width: 100%;
+    background-color: rgb(247, 210, 231);
+}
+
+.header-information h2 {
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.professor-name-div {
+    display: flex;
+}
+
+.header-information img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.professor-name-div span {
+    line-height: 40px;
+    margin-left: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 30px;
+    align-content: center;
+    padding: 15px;
+    font-size: large;
+    font-weight: 600;
+}
+
+.popup-container {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(189, 189, 189, 0.782);
+    position: fixed;
+    top: 0;
+}
+
+.popup {
+    height: 550px;
+    width: 700px;
+    background-color: rgb(247, 255, 255);
+    border-radius: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.popupHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.popupHeader .closeIcon {
+    font-size: 50px;
+    font-weight: 600;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.popupHeader h1 {
+    padding: 10px 15px;
+}
+
+.img-container {
+    text-align: center;
+}
+
+.professor-image {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.professor-info {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 50px 50px 50px;
+    justify-content: space-evenly;
+    /* column-gap: 50px; */
+}
+
+.professor-info span {
+    font-size: large;
+    font-weight: 600;
+}
+
+.professor-info a {
+    text-decoration: none;
+}
+
+body {
+    background: #9edbde;
+    font-family: 'Flamenco', serif;
+}
+
+h1 {
+    color: #fff;
+    font-weight: normal;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+
+/*_________________  Accordion
+________________________________________*/
+.accordion {
+    position: relative;
+    /* margin: 60px auto; */
+    width: 100%;
+    overflow: hidden;
+}
+
+[id*="open-accordion"],
+[id*="close-accordion"] {
+    background: #f54f4f;
+    border-bottom: 1px solid #fff;
+    line-height: 40px;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    width: 99%;
+}
+
+[id*="close-accordion"] {
+    display: none;
+}
+
+.accordion a {
+    color: #fff;
+    font-size: 1.25em;
+    font-weight: normal;
+    padding-left: 2%;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+[id*="open-accordion"]:after,
+[id*="close-accordion"]:after {
+    content: "";
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid rgba(255, 255, 255, 0.6);
+    position: absolute;
+    right: 30px;
+    top: 15px;
+    z-index: 999;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+}
+
+.target-fix {
+    display: block;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+
+.accordion-content {
+    background: #fff;
+    height: 0;
+    margin: -5px auto;
+    padding: 0 2.5%;
+    position: relative;
+    overflow: hidden;
+    width: 90%;
+    transition: all 0.1s ease;
+    -webkit-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
+}
+
+.accordion span:target~.accordion-content {
+    display: block;
+    height: auto;
+    padding-bottom: 25px;
+    padding-top: 10px;
+}
+
+.accordion span:target~[id*="close-accordion"] {
+    display: block;
+}
+
+.accordion span:target~[id*="open-accordion"] {
+    display: none;
+}
+
+.accordion span:target~[id*="close-accordion"]:after {
+    border-top: 10px solid #333;
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+}
